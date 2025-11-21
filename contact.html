@@ -31,10 +31,16 @@
 
 <p>Email: <a href="mailto: sanhub4u01@gmail.com">support@sanhub4u.com</a></p>
 
-<form>
-    <input type="text" placeholder="Your Name (Optional)">
-    <input type="email" placeholder="Your Email">
-    <textarea rows="6" placeholder="Message"></textarea>
+<form action="https://formspree.io/f/xovekqdk" method="POST">
+    <input type="text" name="name" placeholder="Your Name (Optional)">
+    
+    <input type="email" name="email" placeholder="Your Email" required>
+    
+    <textarea rows="6" name="message" placeholder="Your Message" required></textarea>
+    
+    <!-- To identify that this inquiry came from Contact Page -->
+    <input type="hidden" name="formType" value="contact">
+    
     <button type="submit">Send</button>
 </form>
 
