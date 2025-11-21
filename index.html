@@ -2,158 +2,131 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="google-site-verification" content="x0vlFC2adS8huYzjJRbv5gG2YMpNGkRVIBt71-UZqHQ" />
+    <meta name="google-site-verification" content="x0vlFC2adS8huYzjJRbv5gG2YMpNGkRVIBt71-UZqHQ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- SEO Optimized Meta Data -->
-    <title>Sanhub4u</title>
-    <meta name="description" content="Sanhub4u - The futuristic gateway to the San Ecosystem. Enter the future of innovation, technology, and limitless digital freedom.">
-    <meta name="keywords" content="Sanhub4u, San Ecosystem, futuristic technology, digital hub, innovation, tech portal, AI, Web3">
+    <title>Sanhub4u | San Ecosystem</title>
+    <meta name="description" content="Sanhub4u - The futuristic gateway to the San Ecosystem. Enter next-generation innovation, AI & limitless digital future.">
+    <meta name="keywords" content="Sanhub4u, San Ecosystem, futuristic technology, AI, innovation, digital freedom, Web3 portal">
     <meta name="author" content="Sanhub4u">
 
-    <!-- Canonical URL -->
     <link rel="canonical" href="https://limitleslibrty.github.io/Sanhub4u-Home/">
 
-    <!-- Social Share (Open Graph) -->
     <meta property="og:title" content="Sanhub4u | San Ecosystem">
     <meta property="og:description" content="Welcome to the future with San Ecosystem — explore technology beyond imagination.">
+    <meta property="og:image" content="https://limitleslibrty.github.io/Sanhub4u-Home/icon.png">
     <meta property="og:url" content="https://limitleslibrty.github.io/Sanhub4u-Home/">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Sanhub4u">
-    <meta property="og:image" content="https://limitleslibrty.github.io/Sanhub4u-Home/icon.png">
 
-    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Sanhub4u | San Ecosystem">
-    <meta name="twitter:description" content="Experience next-level futuristic technology.">
-    <meta name="twitter:image" content="https://limitleslibrty.github.io/Sanhub4u-Home/icon.png">
+    <meta name="theme-color" content="#121212">
 
-    <!-- Browser Theme -->
-    <meta name="theme-color" content="#00eaff">
+    <link rel="icon" href="icon.png">
 
-    <!-- Robots -->
-    <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow">
-
-    <!-- Schema (Organization) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Sanhub4u",
-      "url": "https://limitleslibrty.github.io/Sanhub4u-Home/",
-      "description": "The official entry to the San Ecosystem - powering futuristic digital experiences.",
-      "logo": "https://limitleslibrty.github.io/Sanhub4u-Home/icon.png"
-    }
-    </script>
-
-    <!-- Optional Favicon (Upload icon.png and it will work) -->
-    <link rel="icon" type="image/png" href="icon.png">
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
     <style>
         body {
             margin: 0;
-            height: 100vh;
-            background: #02040a;
+            background: #1d1d1d;
             font-family: "Poppins", sans-serif;
+            color: #fff;
+            padding: 0;
+        }
+        .container {
+            max-width: 880px;
+            margin: 0 auto;
+            padding: 25px;
+            text-align: center;
+        }
+
+        /* Logo Placeholder */
+        .logo {
+            width: 200px;
+            margin: 30px auto;
+            filter: drop-shadow(0 0 10px #00eaff);
+        }
+
+        h1 {
+            font-size: 1.9rem;
+            line-height: 1.3;
+            font-weight: 700;
+            margin: 10px 0 25px;
+        }
+        .btn-main {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 90%;
+            padding: 18px 0;
+            background: #f9d880;
+            border-radius: 50px;
+            color: #000;
+            font-weight: 700;
+            font-size: 1.3rem;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .btn-main:hover {
+            background: #ffcf4d;
+            transform: scale(1.04);
+        }
+
+        /* Share Section */
+        .share-box {
+            background: #2c2c2c;
+            margin-top: 35px;
+            border-radius: 18px;
+            padding: 22px;
+        }
+        .share-buttons {
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .share-btn {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
-            overflow: hidden;
-            color: #e0e0ff;
+            text-decoration: none;
+            color: #fff;
+            font-size: 22px;
+            font-weight: bold;
         }
-
-        /* Futuristic Stars Background */
-        .star {
-            position: absolute;
-            width: 3px;
-            height: 3px;
-            background: #00eaff;
-            border-radius: 50%;
-            animation: blink 2s infinite ease-in-out;
-        }
-        @keyframes blink {
-            50% { opacity: 0.2; transform: scale(0.3); }
-        }
-
-        /* Main Content */
-        .container {
-            text-align: center;
-            animation: fadeIn 1.4s forwards;
-        }
-        @keyframes fadeIn {
-            0% { opacity: 0; transform: translateY(10px); }
-            100% { opacity: 1; transform: translateY(0); }
-        }
-
-        .title {
-            font-family: "Orbitron", sans-serif;
-            font-size: 55px;
-            font-weight: 700;
-            letter-spacing: 4px;
-            text-shadow: 0 0 18px #00eaff;
-            margin-bottom: 50px;
-        }
-
-        /* Neon Enter Button */
-        .btn {
-            position: relative;
-            padding: 20px 70px;
-            border-radius: 50px;
-            font-size: 25px;
-            font-family: "Orbitron", sans-serif;
-            background: transparent;
-            border: 2px solid #00eaff;
-            color: #00eaff;
-            cursor: pointer;
-            letter-spacing: 3px;
-            transition: 0.4s;
-            box-shadow: 0 0 12px #00eaff;
-        }
-        .btn:hover {
-            background: #00eaff;
-            color: #000016;
-            transform: scale(1.12);
-            box-shadow: 0 0 30px #00eaff;
-        }
-        .btn::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: rgba(255, 255, 255, 0.25);
-            transition: 0.4s;
-        }
-        .btn:hover::before {
-            left: 100%;
-        }
+        .tg { background: #039be5; }
+        .x { background: #000; }
+        .fb { background: #3b5998; }
+        .share { background: #76bf3d; }
     </style>
-</head>
 
+</head>
 <body>
 
-    <!-- Stars Generator -->
-    <script>
-        for (let i = 0; i < 80; i++) {
-            let star = document.createElement('div');
-            star.classList.add('star');
-            star.style.top = Math.random() * 100 + "vh";
-            star.style.left = Math.random() * 100 + "vw";
-            star.style.animationDelay = Math.random() + "s";
-            document.body.appendChild(star);
-        }
-    </script>
+<div class="container">
 
-    <!-- Centered Content -->
-    <div class="container">
-        <div class="title">Sanhub4u</div>
-        <button class="btn"><a href="https://limitleslibrty.github.io/sanhub4u/">ENTER</a></button>
+    <!-- Logo | Replace icon.png later -->
+    <img class="logo" src="icon.png" alt="Sanhub4u Logo">
+
+    <h1>Welcome to Sanhub4u</h1>
+
+    <a href="https://limitleslibrty.github.io/sanhub4u/" class="btn-main">Enter Sanhub4u →</a>
+
+    <div class="share-box">
+        <h3>Share Sanhub4u with others</h3>
+        <p style="opacity: .7;">Support innovation — Share the future!</p>
+
+        <div class="share-buttons">
+            <a href="#" class="share-btn tg">T</a>
+            <a href="#" class="share-btn x">X</a>
+            <a href="#" class="share-btn fb">f</a>
+            <a href="#" class="share-btn share">⤴</a>
+        </div>
     </div>
+
+</div>
 
 </body>
 </html>
